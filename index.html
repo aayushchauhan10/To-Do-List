@@ -11,16 +11,15 @@
 
 <body>
     <div class="todo">
-        <div class="heading">
-            <p>To-Do List</p>
-        </div>
-        <div class="input">
-            <input type="text" placeholder="Add new task" />
-            <button type="submit">Add New</button>
-        </div>
-        <div class="display">
-            No To-do
-        </div>
+        <nav class="heading">
+            <h2>To-Do List</h2>
+            <form id="add-form">
+                <input type="text" id="add-input" placeholder="Add new task" />
+                <button type="submit">Add New</button>
+            </form>
+        </nav>
+
+        <ul id="list"></ul>
     </div>
 
     <script src="script.js"></script>
